@@ -1,0 +1,42 @@
+body {
+    background-image: url("../1_simple/coming-soon-page/forest.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+}
+
+p {
+    color: whitesmoke;
+    font-family: Raleway, sans-serif;
+    font-weight: lighter;
+}
+
+div {
+    /*border: 1px solid red;*/
+    padding-top: 13em;
+}
+
+#logo {
+    margin: 0;
+    float: left;
+    font-size: 2em;
+}
+
+#container {
+    text-align: center;
+}
+
+#comingSoon {
+    font-size: 4em;
+    margin-bottom: 30px;
+}
+
+#text {
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+hr {
+    width: 25%;
+}
+
