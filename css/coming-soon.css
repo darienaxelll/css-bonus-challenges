@@ -17,9 +17,10 @@ div {
 }
 
 #logo {
-    margin: 0;
+    margin-left: .5em;
+    margin-top: .3em;
     float: left;
-    font-size: 2em;
+    font-size: 1.7em;
 }
 
 #container {
