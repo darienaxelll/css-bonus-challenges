@@ -5,10 +5,16 @@ body {
     font-family: Lato, sans-serif;
 }
 
+p {
+    font-size: 1.2em;
+    font-weight: lighter;
+}
+
 .topNav {
     overflow: hidden;
-    background-color: #e33f27;
+    background-color: #e04d37;
     position: relative;
+    box-shadow: rgba(0, 0, 0, 0.47) 2px 2px 2px;
 }
 
 .topNav #myLinks {
@@ -45,6 +51,64 @@ body {
     color: black;
 }
 
+#startPage {
+    text-align: center;
+    background-color: #e04d37;
+    padding: 30px;
+}
+
+#headerTitle {
+    font-size: xxx-large;
+}
+
+.headerP {
+    color: #dddddd;
+    margin: 40px 0;
+    font-size: 20px;
+}
+
+button {
+    background: black;
+    color: #dddddd;
+    padding: 10px 30px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
 section {
+    margin: 0 10px;
+}
+
+.sub-title {
+    font-weight: lighter;
+    font-size: xxx-large;
+}
+
+.p1 {
+    font-weight: normal;
+}
+
+.p2 {
+    font-weight: normal;
+    color: grey;
+}
+
+#anchor {
     display: flex;
+    justify-content: center;
+    font-size: 150px;
+    padding: 90px 0;
+    color: #e04d37;
+}
+
+#section2 {
+    background: #f1f1f1;
+}
+
+#coffeeCup {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+    font-size: 150px;
+    color: #e04d37;
 }
